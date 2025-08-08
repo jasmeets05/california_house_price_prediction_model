@@ -26,7 +26,7 @@ st.sidebar.image("https://images.pexels.com/photos/259588/pexels-photo-259588.jp
 
 # This give the min and max value of the house in our california.csv file
 # and also read the data  
-temp_df=pd.read_csv("california.csv")
+temp_df=pd.read_csv("California.csv")
 all_Value=[]
 random.seed(57) #this will the random value so, that it cannot be change 
 for i in temp_df[col]:
