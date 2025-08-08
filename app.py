@@ -80,6 +80,7 @@ if price>0:
         
     body = f'Predicted Median House Values Price: ${round(price,2)} Thousand Dollars'
     placeholder.empty()
+    place.empty()
     st.success(body)
 
 else:
